@@ -1,0 +1,14 @@
+{
+  "name": "bower",
+  "authors": [
+    "Hector Rojas<hrodrigo80@gmail.com>"
+  ],
+  "description": "Centro medico Medlink",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

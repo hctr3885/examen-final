@@ -1,0 +1,51 @@
+body{
+	font-family: Raleway;
+}
+header{
+	background: #205081;
+	padding-top: 25px;
+}
+header .titulo{
+	color: #fff;
+}
+.logo{
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+}
+.logo-header{
+	padding-bottom: 15px;
+}
+.btn-aceptar{
+	margin-top: 40px;
+}
+.nosotros{
+	margin-top: 80px;
+}
+
+.descripcion{
+	float: right;
+}
+#edificio{
+	float: left;
+	margin-left: 40px;
+}
+
+.mapa{
+	margin-top: 30px;
+	border: 70px solid #fff;
+}
+footer{
+	padding-top: 80px;
+	padding-bottom: 5px;
+	background: lightblue;
+	color: #fff;
+}
+#form{
+ width: 470px;
+ padding: 0 5px;
+ margin: 0 auto;
+}
+input{
+	margin-bottom: 20px;
+}
