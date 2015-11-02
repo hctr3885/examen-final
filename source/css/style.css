@@ -1,51 +1,71 @@
-body{
-	font-family: Raleway;
-}
-header{
-	background: #205081;
-	padding-top: 25px;
-}
-header .titulo{
-	color: #fff;
-}
-.logo{
-	-webkit-border-radius: 50px;
-	-moz-border-radius: 50px;
-	border-radius: 50px;
-}
-.logo-header{
-	padding-bottom: 15px;
-}
-.btn-aceptar{
-	margin-top: 40px;
-}
-.nosotros{
-	margin-top: 80px;
-}
+	body{
+		font-family: Raleway;
+	}
+	header{
+		background: #205081;
+		padding-top: 25px;
+	}
+	header .titulo{
+		color: #fff;
+	}
+	.logo{
+		-webkit-border-radius: 50px;
+		-moz-border-radius: 50px;
+		border-radius: 50px;
+	}
+	.logo-header{
+		padding-bottom: 15px;
+	}
+	.btn-aceptar{
+		margin-top: 40px;
+	}
+	.nosotros{
+		margin-top: 60px;
+		text-align: center;
+		margin-bottom: 60px;
+	}
 
-.descripcion{
-	float: right;
-}
-#edificio{
-	float: left;
-	margin-left: 40px;
-}
-
-.mapa{
-	margin-top: 30px;
-	border: 70px solid #fff;
-}
-footer{
-	padding-top: 80px;
-	padding-bottom: 5px;
-	background: lightblue;
-	color: #fff;
-}
-#form{
- width: 470px;
- padding: 0 5px;
- margin: 0 auto;
-}
-input{
-	margin-bottom: 20px;
-}
+	.form-control{
+		width: 90%;
+	}
+	input{
+		 margin-bottom: 20px;
+	}
+	.form{
+		 border-radius: 5px;
+		 box-shadow: 0px 5px 20px 10px #AAA;
+		 height: auto;
+		 margin: 0 auto;
+		 padding: 0 1%;
+		 text-align: left;
+		 width: 470px;
+		 padding-bottom: 30px;
+	}		
+	#titulo-form{
+		padding-top: 20px;
+		text-align: center;
+	}
+	.mapa{
+		padding-top: 125px
+	}
+	iframe{
+		border-radius: 5px;
+		box-shadow: 0px 5px 20px 10px #AAA;
+		margin: 0 auto;
+	}
+	.data-footer{
+		padding-top: 80px;
+		padding-bottom: 5px;
+		background: lightblue;
+		color: #000;
+		text-align: center;
+	}
+	.dt-form{
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+	.form-actions {
+	    margin: 0;
+	    background-color: transparent;
+	    text-align: center;
+	}
