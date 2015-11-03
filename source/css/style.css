@@ -25,19 +25,19 @@
 			margin-bottom: 60px;
 		}
 		#formulario input{
-			 margin-bottom: 20px;
-			 width: 90%;
+			margin-bottom: 20px;
+			width: 90%;
 			margin-left: 20px;
 		}
 		#formulario{
-			 border-radius: 5px;
-			 box-shadow: 0px 5px 20px 10px #AAA;
-			 height: auto;
-			 margin: 0 auto;
-			 padding: 0 1%;
-			 text-align: left;
-			 width: 470px;
-			 padding-bottom: 50px;
+			border-radius: 5px;
+			box-shadow: 0px 5px 20px 10px #AAA;
+			height: auto;
+			margin: 0 auto;
+			padding: 0 1%;
+			text-align: left;
+			width: 470px;
+			padding-bottom: 50px;
 
 		}		
 		#titulo-form{
@@ -64,82 +64,16 @@
 			padding-bottom:50px;
 		}
 		.form-actions {
-		    margin: 0;
-		    background-color: transparent;
+			margin: 0;
+			background-color: transparent;
 		}
 		.dt-form label{
 			margin-left: 30px;
 		}
-		.contact_form h2 {
-		    border-radius: 5px;
-		    color: #5CD053;
-		    display: block;
-		    font-size: 20px;
-		    padding: 5px;
-		    width: 433px;
-		    text-align: center;
-		}
-		.contact_form ul {
-		    width:750px;
-		    list-style-type:none;
-			margin:0px;
-			padding:0px;
-		}
-		.contact_form li{
-			padding:12px; 
-			border-bottom:1px solid #eee;
-			position:relative;
-		} 
-		.contact_form label {
-		    color: #555555;
-		    display: inline-block;
-		    float: left;
-		    font-weight: bold;
-		    margin-top: 3px;
-		    padding: 3px;
-		    width: 90px;
-		}
-		.contact_form input {
-			height:20px; 
-			width:300px; 
-			padding:5px 8px;
-		}
-		.contact_form textarea {
-			padding:8px; 
-			width:300px;
-		}
-		.contact_form button {
-			margin-left: 170px;
-		}
-		.contact_form input, .contact_form textarea { 
-			border:1px solid #aaa;
-			box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
-			border-radius:2px;
-			color: #888;
-			padding-right:30px;
-			-moz-transition: padding .25s; 
-			-webkit-transition: padding .25s; 
-			-o-transition: padding .25s;
-			transition: padding .25s;
-		}
-		.contact_form input:focus, .contact_form textarea:focus {
-			background: #fff; 
-			border:1px solid #555; 
-			box-shadow: 0 0 3px #aaa; 
-			padding-right:80px;
-		}
-		.contact_form input:required:valid, .contact_form textarea:required:valid {
-			box-shadow: 0 0 5px #5cd053;
-			border-color: #28921f;
-		}
-		.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
-			box-shadow: 0 0 5px #d45252;
-			border-color: #b03535
-		}
 		button.submit {
-		    padding: 9px 17px;
-		   font-weight: bold;
-		   line-height: 1;
+			padding: 9px 17px;
+			font-weight: bold;
+			line-height: 1;
 		}
 		button.submit:hover {
 			opacity:.55;
@@ -169,4 +103,37 @@
 		}
 		#whatsapp{
 			padding-top: 20px;
+		}
+		#title-info{
+			padding-bottom: 20px;
+		}
+		.panel-body{
+			text-align: center;
+			padding: 60px;
+		}
+		.panel-body h4{
+			padding-top: 10px;
+			padding-bottom: 10px;
+			color: #205081;
+			font-weight: bold; 
+		}
+		.titulo-servicios{
+			color: #205081;
+			font-weight: bold;
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+		.prestadores{
+			text-align: center;
+			padding-top: 30px;
+			background: lightblue;
+			padding-bottom: 20px;
+		}
+		.serv-box{
+			color: #205081;
+			font-size: 1.4em;
+			font-weight: bold;
+			text-align: center;
+			padding-top: 45px;
+			padding-bottom: 5px;	
 		}
