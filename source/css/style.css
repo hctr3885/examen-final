@@ -1,71 +1,172 @@
-	body{
-		font-family: Raleway;
-	}
-	header{
-		background: #205081;
-		padding-top: 25px;
-	}
-	header .titulo{
-		color: #fff;
-	}
-	.logo{
-		-webkit-border-radius: 50px;
-		-moz-border-radius: 50px;
-		border-radius: 50px;
-	}
-	.logo-header{
-		padding-bottom: 15px;
-	}
-	.btn-aceptar{
-		margin-top: 40px;
-	}
-	.nosotros{
-		margin-top: 60px;
-		text-align: center;
-		margin-bottom: 60px;
-	}
+		body{
+			font-family: Raleway;
+		}
+		header{
+			background: #205081;
+			padding-top: 25px;
+		}
+		header .titulo{
+			color: #fff;
+		}
+		.logo{
+			-webkit-border-radius: 50px;
+			-moz-border-radius: 50px;
+			border-radius: 50px;
+		}
+		.logo-header{
+			padding-bottom: 15px;
+		}
+		.btn-aceptar{
+			margin-top: 40px;
+		}
+		.nosotros{
+			margin-top: 60px;
+			text-align: center;
+			margin-bottom: 60px;
+		}
+		#formulario input{
+			 margin-bottom: 20px;
+			 width: 90%;
+			margin-left: 20px;
+		}
+		#formulario{
+			 border-radius: 5px;
+			 box-shadow: 0px 5px 20px 10px #AAA;
+			 height: auto;
+			 margin: 0 auto;
+			 padding: 0 1%;
+			 text-align: left;
+			 width: 470px;
+			 padding-bottom: 50px;
 
-	.form-control{
-		width: 90%;
-	}
-	input{
-		 margin-bottom: 20px;
-	}
-	.form{
-		 border-radius: 5px;
-		 box-shadow: 0px 5px 20px 10px #AAA;
-		 height: auto;
-		 margin: 0 auto;
-		 padding: 0 1%;
-		 text-align: left;
-		 width: 470px;
-		 padding-bottom: 30px;
-	}		
-	#titulo-form{
-		padding-top: 20px;
-		text-align: center;
-	}
-	.mapa{
-		padding-top: 125px
-	}
-	iframe{
-		border-radius: 5px;
-		box-shadow: 0px 5px 20px 10px #AAA;
-		margin: 0 auto;
-	}
-	.data-footer{
-		padding-top: 80px;
-		padding-bottom: 5px;
-		background: lightblue;
-		color: #000;
-		text-align: center;
-	}
-	.dt-form{
-		padding-top: 30px;
-		padding-bottom: 50px;
-	}
-	.form-actions {
-	    margin: 0;
-	    background-color: transparent;
-	    text-align: center;
-	}
+		}		
+		#titulo-form{
+			padding-top: 20px;
+			text-align: center;
+		}
+		.mapa{
+			padding-top: 125px
+		}
+		.mapa iframe{
+			border-radius: 5px;
+			box-shadow: 0px 5px 20px 10px #AAA;
+			margin: 0 auto;
+		}
+		.data-footer{
+			padding-top: 80px;
+			padding-bottom: 5px;
+			background: lightblue;
+			color: #000;
+			text-align: center;
+		}
+		.dt-form{
+			padding-top: 30px;
+			padding-bottom:50px;
+		}
+		.form-actions {
+		    margin: 0;
+		    background-color: transparent;
+		}
+		.dt-form label{
+			margin-left: 30px;
+		}
+		.contact_form h2 {
+		    border-radius: 5px;
+		    color: #5CD053;
+		    display: block;
+		    font-size: 20px;
+		    padding: 5px;
+		    width: 433px;
+		    text-align: center;
+		}
+		.contact_form ul {
+		    width:750px;
+		    list-style-type:none;
+			margin:0px;
+			padding:0px;
+		}
+		.contact_form li{
+			padding:12px; 
+			border-bottom:1px solid #eee;
+			position:relative;
+		} 
+		.contact_form label {
+		    color: #555555;
+		    display: inline-block;
+		    float: left;
+		    font-weight: bold;
+		    margin-top: 3px;
+		    padding: 3px;
+		    width: 90px;
+		}
+		.contact_form input {
+			height:20px; 
+			width:300px; 
+			padding:5px 8px;
+		}
+		.contact_form textarea {
+			padding:8px; 
+			width:300px;
+		}
+		.contact_form button {
+			margin-left: 170px;
+		}
+		.contact_form input, .contact_form textarea { 
+			border:1px solid #aaa;
+			box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+			border-radius:2px;
+			color: #888;
+			padding-right:30px;
+			-moz-transition: padding .25s; 
+			-webkit-transition: padding .25s; 
+			-o-transition: padding .25s;
+			transition: padding .25s;
+		}
+		.contact_form input:focus, .contact_form textarea:focus {
+			background: #fff; 
+			border:1px solid #555; 
+			box-shadow: 0 0 3px #aaa; 
+			padding-right:80px;
+		}
+		.contact_form input:required:valid, .contact_form textarea:required:valid {
+			box-shadow: 0 0 5px #5cd053;
+			border-color: #28921f;
+		}
+		.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
+			box-shadow: 0 0 5px #d45252;
+			border-color: #b03535
+		}
+		button.submit {
+		    padding: 9px 17px;
+		   font-weight: bold;
+		   line-height: 1;
+		}
+		button.submit:hover {
+			opacity:.55;
+			cursor: pointer; 
+			color: #fff;
+		}
+		button.submit:active {
+			border: 1px solid #222;
+			box-shadow: 0 0 10px 5px #444 inset; 
+		}
+		.help-block{
+			padding-left: 30px;
+			border:0px;
+		}
+		.for-group{
+			padding-left: 30px;
+		}
+		.info-list{
+			padding-top: 10px;
+			text-align: center;
+		}
+		.info-list p{
+			padding-top: 10px;
+		}
+		#telefonos{
+			padding-top: 20px;
+		}
+		#whatsapp{
+			padding-top: 20px;
+		}
